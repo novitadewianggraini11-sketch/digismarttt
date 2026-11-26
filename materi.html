@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi | DIGISMART</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">DIGI<span>SMART</span></div>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="kuis.html">Kuis</a>
+        <button onclick="logout()" class="btn-login">Keluar</button>
+    </nav>
+</header>
+
+<main class="dashboard">
+
+    <h1>Materi Literasi Digital</h1>
+    <p>Kenali dan pelajari berbagai pengetahuan digital.</p>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+            <h3>📰 Mengenali Hoaks</h3>
+            <p>
+                Hoaks adalah informasi palsu yang dibuat
+                seolah-olah benar untuk menyesatkan orang lain.
+            </p>
+            <p>
+                Tips: periksa sumber informasi, tanggal,
+                dan bandingkan dengan sumber terpercaya.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🔐 Keamanan Digital</h3>
+            <p>
+                Keamanan digital merupakan usaha melindungi
+                akun, perangkat, dan informasi pribadi.
+            </p>
+            <p>
+                Tips: gunakan kata sandi kuat dan jangan
+                membagikan kode OTP.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🌐 Jejak Digital</h3>
+            <p>
+                Jejak digital adalah rekaman aktivitas
+                seseorang ketika menggunakan internet.
+            </p>
+            <p>
+                Tips: pikirkan dampak sebelum mengunggah
+                sesuatu ke media sosial.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🤖 Literasi AI</h3>
+            <p>
+                AI adalah teknologi yang membantu komputer
+                melakukan tugas yang biasanya membutuhkan
+                kecerdasan manusia.
+            </p>
+            <p>
+                Tips: periksa kembali hasil AI sebelum digunakan.
+            </p>
+        </div>
+
+    </div>
+
+    <button class="btn-primary" onclick="completeMaterial()">
+        Tandai Semua Materi Selesai
+    </button>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
