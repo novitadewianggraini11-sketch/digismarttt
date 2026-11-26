@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | DIGISMART</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">DIGI<span>SMART</span></div>
+
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="materi.html">Materi</a>
+        <a href="kuis.html">Kuis</a>
+        <button onclick="logout()" class="btn-login">Keluar</button>
+    </nav>
+</header>
+
+<main class="dashboard">
+
+    <h1>Selamat Datang, <span id="userName">Pengguna</span>!</h1>
+    <p>Selamat belajar dan tingkatkan literasi digitalmu.</p>
+
+    <div class="stats">
+
+        <div class="stat-card">
+            <h3>Materi Selesai</h3>
+            <h2 id="materialCount">0</h2>
+        </div>
+
+        <div class="stat-card">
+            <h3>Kuis Selesai</h3>
+            <h2 id="quizCount">0</h2>
+        </div>
+
+        <div class="stat-card">
+            <h3>Total Nilai</h3>
+            <h2 id="totalScore">0</h2>
+        </div>
+
+    </div>
+
+    <h2>Menu Pembelajaran</h2>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+            <h3>📚 Materi Literasi Digital</h3>
+            <p>Pelajari pengetahuan dasar dunia digital.</p>
+            <a href="materi.html">Buka Materi</a>
+        </div>
+
+        <div class="feature-card">
+            <h3>📝 Kuis Literasi Digital</h3>
+            <p>Uji kemampuanmu melalui pertanyaan interaktif.</p>
+            <a href="kuis.html">Mulai Kuis</a>
+        </div>
+
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
