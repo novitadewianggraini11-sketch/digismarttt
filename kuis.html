@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis | DIGISMART</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">DIGI<span>SMART</span></div>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="materi.html">Materi</a>
+        <button onclick="logout()" class="btn-login">Keluar</button>
+    </nav>
+</header>
+
+<main class="quiz-container">
+
+    <h1>Kuis Literasi Digital</h1>
+    <p>Jawablah pertanyaan berikut dengan benar!</p>
+
+    <div id="quizArea"></div>
+
+    <button onclick="nextQuestion()" id="nextButton"
+        class="btn-primary">
+        Selanjutnya
+    </button>
+
+    <div id="quizResult"></div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
